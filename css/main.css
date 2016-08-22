@@ -2,6 +2,9 @@
 body {
 	font-size: 16px;
 	font-family: 'Josefin Sans', sans-serif;
+	color: #333;
+	background-color: #fdfdfd;
+	padding-top: 60px;
 
 }
 /* ============== Link color ============== */
@@ -38,14 +41,25 @@ a:after {
 	text-align: center;
 }
 .navbar-area {
-	position: relative;
 	background-color: #ededed;
 }
-.logo-area {
-	height: 60px;
-	padding: 20px;
+.icon-bar {
+	background-color: #D2691E;
 }
-.nav-area {
-	height: 60px;
-	padding: 20px;
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
 }
