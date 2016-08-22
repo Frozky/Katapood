@@ -1,0 +1,51 @@
+
+body {
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+/* ============== Link color ============== */
+a {
+    color: #D2691E;
+    word-wrap: break-word;
+    cursor: pointer;
+    -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+    transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #555;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+    transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+
+/* ============== nav area ============== */
+
+.nav-cell {
+	text-align: center;
+}
+.navbar-area {
+	position: relative;
+	background-color: #ededed;
+}
+.logo-area {
+	height: 60px;
+	padding: 20px;
+}
+.nav-area {
+	height: 60px;
+	padding: 20px;
+}
