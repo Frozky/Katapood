@@ -63,7 +63,7 @@ a:after {
         padding: 15px 0;
     }
 
-.footer {
+#footerWrapper {
     position: absolute;
     bottom: 0;
     width: 100%;
