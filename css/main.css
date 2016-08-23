@@ -55,7 +55,7 @@ a:after {
 }
 
 .logo {
-    width:5em;
+    width:  5em;
 }
 
 @media(min-width:768px) {
@@ -66,37 +66,32 @@ a:after {
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
+}
+
+/* ============== footer area ============== */
 
 #footerWrapper {
     position: relative;
     bottom: 0;
     width: 100%;
     background-color: #33332e;
-    
 }
-    
-    #footerWrapper p {
-        color: #fefeff;
-    }    
-    
-    
-#footerLogo {
-    width:7em; 
+#mainFooter {
+    height: 12em;
+}
+#footerWrapper p {
+    color: #fefeff;
+}    
+.social-area {
+    position: relative;
+    top: 2em;
+} 
+.address-area {
+    position: relative;
+    top: 0.3em;
+}
 
-
-    }
-    
-.ikoon-fb {
-    float: none;
-    margin: 0 auto;
-    
-    }
-.footer-fb {
-    padding: 2em;
-    }
-
-    .karusell {
-        padding-top:10px;
-        padding-bottom:15px;
-        
-    }
+.karusell {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
