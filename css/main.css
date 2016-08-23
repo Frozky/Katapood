@@ -64,17 +64,31 @@ a:after {
     }
 
 #footerWrapper {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    background-color: #ededed;
+    background-color: #33332e;
+    
 }
     
+    #footerWrapper p {
+        color: #fefeff;
+    }    
+    
+    
 #footerLogo {
-width:100px; 
+    width:7em; 
+
+
     }
     
-.footer-fb {
+.ikoon-fb {
     float: none;
     margin: 0 auto;
+    
     }
+.footer-fb {
+    padding: 2em;
+    }
+
+    
