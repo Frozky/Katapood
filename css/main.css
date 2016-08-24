@@ -131,7 +131,10 @@ h2 {
 .prod-img {
     border-radius: 10px;
     overflow:hidden;
+}
 
+.row {
+    padding-right:1em;
 }
 
 /* ------------------ Checkboxide testimis ala, ignore ------------------ */
