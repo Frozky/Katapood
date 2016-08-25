@@ -2355,7 +2355,7 @@ if (typeof jQuery === 'undefined') {
     $.fn.affix = old
     return this
   }
-
+  
 
   // AFFIX DATA-API
   // ==============
