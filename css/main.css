@@ -122,11 +122,6 @@ h2 {
 }
 
 
-.row {
-    padding-right:1em;
-}
-
-
 
 ul.rig {
 	list-style: none;
@@ -193,7 +188,40 @@ ul.rig.columns-4 li {
 
 
 
-/* ------------------ Checkboxide testimis ala, ignore ------------------ */
+/* ------------------ MixItUp ------------------ */
+
+.mixit-button{
+  display: inline-block;
+  background: #666;
+  border: 0;
+  color: #fdfdfd;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: 0 !important;
+}
+.product-grid:after{
+  display: inline-block;
+}
+
+.product-grid .mix,
+.product-grid .gap{
+  display: inline-block;
+}
+
+.product-grid .mix{
+  display: none;
+}
 
 
 
+.product-grid .mix:after{
+
+  display: inline-block;
+
+}
+
+.product-grid .mix:before{
+  display: inline-block;
+}
