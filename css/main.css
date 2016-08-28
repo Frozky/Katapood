@@ -226,14 +226,17 @@ ul.rig.columns-4 li {
   display: inline-block;
 }
 
+.product-img-box {
+    padding-bottom: 80%;
+    margin-top: 15px;
+    background: url(../images/Prdc/Koerad/Toidud/1.JPG) no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+}
 
-
-
-
-
-
-
-
+.product-info-box {
+    text-align: center;
+}   
 
 
 
